@@ -61,10 +61,9 @@ function scrollHeader() {
   }
   
   //! ============= resume button ==========
-  document.getElementById("resume-link-1").onclick = () => {
-
-    window.open("https://drive.google.com/file/d/1mRDo2ORN1LvcB6CC8ZPcisefCYi0PAwZ/view?usp=sharing");
-}
+  document.getElementById('resume-link-1').addEventListener("click", () => {
+    window.location.assign("https://drive.google.com/file/d/1T89GO9-k_otAy8nOX6qP9TypbJx2fTTF/view?usp=share_link", "_blank");
+})
 document.getElementById('resume-link-2').addEventListener("click", () => {
   window.location.assign("https://drive.google.com/file/d/1mRDo2ORN1LvcB6CC8ZPcisefCYi0PAwZ/view?usp=sharing");
 })
