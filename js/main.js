@@ -65,6 +65,9 @@ function scrollHeader() {
 
     window.open("https://drive.google.com/file/d/1mRDo2ORN1LvcB6CC8ZPcisefCYi0PAwZ/view?usp=sharing");
 }
+document.getElementById('resume-link-2').addEventListener("click", () => {
+  window.location.assign("https://drive.google.com/file/d/1mRDo2ORN1LvcB6CC8ZPcisefCYi0PAwZ/view?usp=sharing", "_blank");
+})
 // document.getElementById("resume-link-2").onclick = () => {
 
 //     location.assign("https://drive.google.com/file/d/1ipnSEzLMHm--KlKIRtS8spRTOhYPy3fG/view?usp=share_link");
